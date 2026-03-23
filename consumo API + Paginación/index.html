@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paginación API</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/rick.png" type="image/png">
+</head>
+<body>
+
+<h1>Rick and Morty</h1>
+
+<select id="limit">
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+</select>
+
+<div id="info"></div>
+
+<div id="container"></div>
+
+<div class="controls">
+    <button id="first">Primera</button>
+    <button id="prev">Anterior</button>
+    <button id="next">Siguiente</button>
+    <button id="last">Última</button>
+</div>
+
+<script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
